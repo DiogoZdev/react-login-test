@@ -6,8 +6,10 @@ O Projeto foi construído com [Create React App](https://github.com/facebook/cre
 
 # Inicialização
 
-Para iniciar o projeto é necessário clonar o repositório e executá-lo localmente.
-Na pasta do projeto, execute o comando `npm start` para iniciar o projeto. O comando foi configurado para não abrir um navegador automaticamente, então, é necessário acessar o caminho `http://localhost:3000` no navegador de sua preferência para abrir o projeto.
+- git clone https://github.com/DiogoZdev/react-login-test.git
+- cd react-login-test
+- npm install
+- npm start (Abra `http://localhost:3000`)
 
 # Utilização
 
@@ -26,8 +28,10 @@ The project was built with [Create React App](https://github.com/facebook/create
 
 # Initialization
 
-To initialize the project it's necessary to clone the project and execute it locally.
-In the project filder, execute the command `npm start` to initialize the project. The command was configured to not open a browser, so, it's required to open `http://localhost:3000` in your preferred browser.
+- git clone https://github.com/DiogoZdev/react-login-test.git
+- cd react-login-test
+- npm install
+- npm start (Open `http://localhost:3000`)
 
 # How to use
 

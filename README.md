@@ -42,3 +42,6 @@ The initial screen has a simple registry simulation form. There are some validat
 - A personalized hook was created to access the Local Storage, but, if used in the initial page to permit a faster login, the application returns an error. If it's not used, the dynamic login is not possible, being necessary to fill out the form again. The issue could be easily resolved if the project was build using Angular, which I'm used to, but I challenged myself to use React that I've been studying lately.
 
 - The required color schema was stricted followed. There is certain difficulty to visualize a filled but not focused form field. In this case, I would lightly change the color schema to improve usability.
+
+
+![image](https://user-images.githubusercontent.com/56682712/170897420-c1198ab2-49c8-4236-8bb8-9004eaf4bc17.png)

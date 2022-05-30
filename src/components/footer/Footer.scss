@@ -1,0 +1,30 @@
+.Footer {
+
+  &-wrapper {
+    width: 100vw;
+    height: fit-content;
+    background-color: #222;
+  }
+
+  &-container {
+    width: 100%;
+    max-width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #40c7f3;
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+
+    .icon {
+      font-size: 24px;
+      animation: rotate 8s linear infinite;
+    }
+  }
+}
+
+@keyframes rotate {
+  from {transform: 0}
+  to { transform: rotate(360deg);}
+}

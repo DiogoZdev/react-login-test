@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+## PORT-BR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre
 
-## Available Scripts
+O Projeto foi construído com [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+# Inicialização
 
-### `npm start`
+Para iniciar o projeto é necessário clonar o repositório e executá-lo localmente.
+Na pasta do projeto, execute o comando `npm start` para iniciar o projeto. O comando foi configurado para não abrir um navegador automaticamente, então, é necessário acessar o caminho `http://localhost:3000` no navegador de sua preferência para abrir o projeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Utilização
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O projeto se inicia com um formulário simulando um cadastro simples. Há validações para que um cadastro não seja confirmado sem que os dados necessários sejam preenchidos. Confirmando o cadastro é possível fazer um login e visualizar os dados inseridos, assim como deletá-los do armazenamento local do navegador (Local Storage).
 
-### `npm test`
+# Considerações
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Foi criado um hook para acesso ao LocalStorage, porém, se utilizado na página inical para permitir um login mais rápido, ocorre um erro na execução da aplicação. Não sendo utilizado, não é possível um login dinâmico porém e os dados devem ser preenchidos novamente. O problema seria resolvido mais facilmente caso utilizasse Angular para criação do projeto, ferramenta com a qual tenho maior familiaridade, porém, me desafiei a utilizar o React que tenho estudado.
 
-### `npm run build`
+- Foi utilizado estritamente o esquema de cores solicitado. Há certa dificuldade de visualização de um dado de formulário preenchido e não focado. Nesse caso eu alteraria levemente o esquema de cores para melhorar a usabilidade.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ENG
+# About
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project was built with [Create React App](https://github.com/facebook/create-react-app).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Initialization
 
-### `npm run eject`
+To initialize the project it's necessary to clone the project and execute it locally.
+In the project filder, execute the command `npm start` to initialize the project. The command was configured to not open a browser, so, it's required to open `http://localhost:3000` in your preferred browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# How to use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The initial screen has a simple registry simulation form. There are some validations so a registry cannot be confirmed until the required data are filled in. Confirming the registration it is possible to login and visualize the inserted data and delete them from the browser Local Storage if desired.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Considerations
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- A personalized hook was created to access the Local Storage, but, if used in the initial page to permit a faster login, the application returns an error. If it's not used, the dynamic login is not possible, being necessary to fill out the form again. The issue could be easily resolved if the project was build using Angular, which I'm used to, but I challenged myself to use React that I've been studying lately.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The required color schema was stricted followed. There is certain difficulty to visualize a filled but not focused form field. In this case, I would lightly change the color schema to improve usability.

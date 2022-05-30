@@ -1,0 +1,15 @@
+.Alert-wrapper {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
+  width: 500px;
+  max-width: calc(100vw - 2rem);
+  border-radius: 10px;
+  background-color: #111;
+  color: #eee;
+  text-align: center;
+  font-size: 12px;
+  opacity: 80%;
+}

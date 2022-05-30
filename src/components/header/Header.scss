@@ -1,0 +1,42 @@
+.Header {
+
+  &-wrapper {
+    width: 100vw;
+    height: 80px;
+    padding: 2rem;
+    background: linear-gradient(
+        to right, #2179b5, #40c8f4
+        );
+    color: white;
+  }
+
+  &-container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  &-image {
+    width: 90px;
+    height: 90px;
+    background-color: #205e88;
+    transform: translateY(20%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &>* {
+      font-size: 42px;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+}
